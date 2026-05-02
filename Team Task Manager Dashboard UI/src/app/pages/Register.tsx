@@ -6,7 +6,7 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { Button } from '../components/ui/button';
 import { toast } from 'sonner';
-
+import logo from '../../assets/image.png';
 export function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -32,7 +32,17 @@ export function Register() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50 px-4">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-gray-50 px-4">
+      <div className="flex flex-col items-center mb-6">
+    <img
+      src={logo}
+      alt="Ethara Logo"
+      className="h-14 w-auto mr-3"
+    />
+    <p className="text-sm text-gray-500 mt-2">
+      Smart Team Task Management
+    </p>
+  </div>
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-semibold">Create an account</CardTitle>
