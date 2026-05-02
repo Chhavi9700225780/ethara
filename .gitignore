@@ -1,0 +1,74 @@
+.env 
+# =========================
+# NODE MODULES
+# =========================
+node_modules/
+*/node_modules/
+
+# =========================
+# ENV FILES (IMPORTANT 🔥)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# LOG FILES
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# BUILD FILES
+# =========================
+dist/
+build/
+*/dist/
+*/build/
+
+# =========================
+# VITE CACHE
+# =========================
+.vite/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITOR FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# TEST / COVERAGE
+# =========================
+coverage/
+
+# =========================
+# MISC
+# =========================
+*.local
+*.lock
+
+# =========================
+# DATABASE (if any local files)
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# FRONTEND SPECIFIC (VITE)
+# =========================
+Team Task Manager Dashboard UI/dist/
+
+# =========================
+# BACKEND SPECIFIC
+# =========================
+server/uploads/
